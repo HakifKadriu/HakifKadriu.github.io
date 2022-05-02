@@ -1,0 +1,61 @@
+.HK-tekstikryesor{
+    text-align: center;
+    font-weight: 550;
+    margin-left: 15px;
+    font-family: DINPro-Cond,Helvetica,Arial,sans-serif;
+    color: #223c50;
+}
+.HK-tekstikryesor2{
+    text-align: center;
+    font-weight: 550;
+    margin-left: 15px;
+    font-family: DINPro-Cond,Helvetica,Arial,sans-serif;
+    color: white;
+}
+#faqja2 p{
+    font-size: 16px;
+}
+#faqja2{
+    background-image: url("backgroundimage.png");
+}
+.smallcaptions{
+    text-align: center; 
+    color: gray; 
+    font-weight: 550; 
+    font-size: 13px;
+}
+#specstitle{
+    display: inline-block;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+#specs{
+    color: white;
+    text-align: center;
+}
+#footer, #footerlinks a{
+    background-image: url("footerimg.webp");
+    color: white;
+    text-align: center;
+}
+.HK-Footertitles{
+    font-weight: bold;
+    margin-top: 70px;
+    font-size: 16px;
+}
+@media only screen and (max-width: 600px) {
+    #comparingdiv{
+        display: none;
+    }
+    .HK-tekstikryesor2{
+        margin: 0 20px;
+    }
+    #footer img{
+        display: none;
+    }
+}
+
+

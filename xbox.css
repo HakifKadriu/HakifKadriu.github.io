@@ -1,0 +1,49 @@
+#Game_Informants{
+    background-image: url("xboxbackgroundimg.jpeg");
+    color: white;
+}
+.teksti{
+    text-align: center;
+}
+.bigtitles{
+    font-size: 70px; 
+    font-weight: bold;
+    text-align: center;
+}
+.undertitles{
+    margin-top: -20px;
+    text-align: center;
+}
+#xboxsintro{
+    float: right;
+    margin-top: -85px;
+}
+.endtext{
+    font-family:'Times New Roman', Times, serif;
+}
+#specs{
+    color: white;
+    text-align: center;
+}
+#footer, #footerlinks a{
+    background-image: url("footerimg.webp");
+    color: white;
+    text-align: center;
+}
+.HK-Footertitles{
+    font-weight: bold;
+    margin-top: 70px;
+    font-size: 16px;
+}
+@media only screen and (max-width: 600px) {
+    #underxbox{
+        font-size: 16px;
+    }
+    #video1{
+        width: 100%;
+        margin-left: -30px;
+    }
+    #footer img{
+        display: none;
+    }
+}

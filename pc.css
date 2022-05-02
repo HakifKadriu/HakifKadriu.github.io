@@ -1,0 +1,57 @@
+#Game_Informants{
+    text-align: center;
+}
+.HK-teksikryesor{
+    text-align: center;
+    font-weight: 550;
+    margin-left: 15px;
+    font-family: DINPro-Cond,Helvetica,Arial,sans-serif;
+    color: #223c50;
+}
+.teksineimg{
+    text-align: center;
+    font-weight: 550;
+    margin-left: 15px;
+    font-family: DINPro-Cond,Helvetica,Arial,sans-serif;
+    color: rgb(255, 254, 254);
+    padding: 5px;
+}
+
+#captionlinks{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+#footer, #footerlinks a{ /* Fundi i faqes*/
+    background-image: url("footerimg.webp");
+    color: white;
+    text-align: center;
+}
+.HK-Footertitles{
+    font-weight: bold;
+    margin-top: 70px;
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+    .teksineimg{
+        display: none;
+    }
+    .HK-omen-corsair-logo{
+        width: 100px;
+        margin-left: 100px;
+    }
+    #omen-corsair-text{
+        text-align: left;
+    }
+    .HK-alienware-origin-logo{
+        width: 100px;
+        margin-right: 100px;
+    }
+    #alienware-origin-text{
+        text-align: center;
+    }
+    #footer img{
+        display: none;
+    }
+}
